@@ -93,20 +93,19 @@
   <div class="pfds-content-area">
     <div class="pfds-content-main">
       <div id="home" class="page-content active view-scope-home">
-<h1>志臻志事</h1>
+<h1>志臻志异</h1>
 
-由于暑假太闲，故出此下策。  
-
-由于太懒，所以没弄在线文档。每天更新一次。
+无聊死我了。
 
 
-<div class="Attention-box blue align-left" style="width: 80%;">
-    <div class="strip"></div>
-    欢迎投稿
+<div class="Attention-box blue align-left" style="width: 90%;">
+    
+    欢迎投稿。
 
-<pre class="QQ align-right" style="width: 30%;"><code>934443777</code><span class="language-label">QQ</span><button class="copy-code-button" onclick="copyCode(this)" title="复制代码"><i class="icon-copy"></i></button></pre>
+<pre class="QQ align-center" style="width: 30%;"><code>934443777</code><span class="language-label">QQ</span></pre>
 
-<pre class="WX align-right" style="width: 30%;"><code>wuming1679a</code><span class="language-label">WX</span><button class="copy-code-button" onclick="copyCode(this)" title="复制代码"><i class="icon-copy"></i></button></pre>
+
+<pre class="WX align-center" style="width: 30%;"><code>wuming1679a</code><span class="language-label">WX</span></pre>
 </div>
 </div>
 
@@ -122,7 +121,7 @@
     </div>
     <div class="pfds-content-nav">
       <ul id="contentNavList"></ul>
-      <div class="pfds-compile-time">编译时间：2025-08-07 12:51:28</div>
+      <div class="pfds-compile-time">编译时间：2025-08-07 15:21:58</div>
     </div>
   </div>
 </div>
@@ -139,7 +138,17 @@
 <script type="module" src="assets/js/modules.js"></script>
 
 <script src="assets/js/public-script.js"></script>
-
+<!-- DEV_ONLY_START -->
+<!-- 热重载客户端 -->
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  const socket = io();
+  socket.on('reload', function () {
+    console.log('🔁 检测到文件更新，页面即将刷新...');
+    location.reload();
+  });
+</script>
+<!-- DEV_ONLY_END -->
 <script>
   function copyCode(button) {
     const pre = button.closest('pre');
