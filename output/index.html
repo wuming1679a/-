@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>志臻志异</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="logo">志臻志异</div>
+    <div class="search-container" id="mobileSearchContainer">
+      <input type="text" id="searchInput" placeholder="输入关键词进行搜索..." />
+      <button onclick="openSearchModal()">搜索</button>
+    </div>
+  </div>
+
+  <!-- 手机端汉堡菜单 -->
+  <button class="hamburger" aria-label="Toggle Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <!-- 手机端遮罩层 -->
+  <div class="overlay" id="mobileOverlay"></div>
+
+  <div class="header-right">
+    <div class="nav-links" id="mobileNavLinks">
+      <ul>
+        
+<li class="nav-item has-submenu">
+  <a href="javascript:void(0)" class="submenu-toggle">
+    
+    <span>快捷操作</span>
+  </a>
+  
+<ul class="submenu">
+<li><a href="../" target="_blank">返回上级</a></li>
+<li><a href="../" target="_blank">组件文档</a></li>
+</ul>
+</li>
+
+<li class="nav-item">
+  <a href="https://github.com/wuming1679a" target="_blank">
+    <i class="icon-github"></i>
+    <span>GitHub</span>
+  </a>
+</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="pfds-container">
+  <div class="pfds-nav" data-no-search>
+    <ul>
+
+<li class="nav-item">
+  <a href="#" onclick="showPage('home')" id="nav-home" class="active" data-page-id="home">
+    主页
+  </a>
+</li>
+<li>
+  <a href="javascript:void(0)" class="nav-group-toggle">
+    志人篇
+    <span class="toggle-icon ">↠</span>
+  </a>
+  <ul class="nav-group-content " id="group-1-content">
+    <li>
+      <a href="#" onclick="showPage('guorunduo')" id="nav-guorunduo" class="" data-page-id="guorunduo">
+        郭润铎
+      </a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="javascript:void(0)" class="nav-group-toggle">
+    志事篇
+    <span class="toggle-icon active">↠</span>
+  </a>
+  <ul class="nav-group-content active" id="group-2-content">
+    <li>
+      <a href="#" onclick="showPage('match')" id="nav-match" class="" data-page-id="match">
+        体育文化艺术节
+      </a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="javascript:void(0)" class="nav-group-toggle">
+    中考篇
+    <span class="toggle-icon active">↠</span>
+  </a>
+  <ul class="nav-group-content active" id="group-3-content">
+    <li>
+      <a href="#" onclick="showPage('exam')" id="nav-exam" class="" data-page-id="exam">
+        空
+      </a>
+    </li>
+  </ul>
+</li></ul>
+  </div>
+
+  <div class="pfds-content-area">
+    <div class="pfds-content-main">
+      <div id="home" class="page-content active view-scope-home">
+<h1>志臻志异</h1>
+
+由于暑假太闲，故出此下策。欢迎投稿。
+
+由于太懒，所以没弄在线文档。每天更新一次。
+
+
+<div class="Attention-box blue align-left" style="width: 80%;">
+    <div class="strip"></div>
+    欢迎投稿
+
+<pre class="QQ align-right" style="width: 30%;"><code>934443777</code><span class="language-label">QQ</span><button class="copy-code-button" onclick="copyCode(this)" title="复制代码"><i class="icon-copy"></i></button></pre>
+
+<pre class="WX align-right" style="width: 30%;"><code>wuming1679a</code><span class="language-label">WX</span><button class="copy-code-button" onclick="copyCode(this)" title="复制代码"><i class="icon-copy"></i></button></pre>
+</div>
+</div>
+
+<div id="guorunduo" class="page-content active view-scope-guorunduo">
+
+</div>
+
+<div id="match" class="page-content active view-scope-match">
+
+</div>
+
+<div id="exam" class="page-content active view-scope-exam">
+
+</div>
+
+
+    </div>
+    <div class="pfds-content-nav">
+      <ul id="contentNavList"></ul>
+      <div class="pfds-compile-time">编译时间：2025-08-07 14:25:55</div>
+    </div>
+  </div>
+</div>
+
+<div class="pfds-modal-overlay" id="searchModal">
+  <div class="pfds-modal">
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<!-- 引入 Highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
+<script type="module" src="assets/js/modules.js"></script>
+
+<script src="assets/js/public-script.js"></script>
+<!-- DEV_ONLY_START -->
+<!-- 热重载客户端 -->
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  const socket = io();
+  socket.on('reload', function () {
+    console.log('🔁 检测到文件更新，页面即将刷新...');
+    location.reload();
+  });
+</script>
+<!-- DEV_ONLY_END -->
+<script>
+  function copyCode(button) {
+    const pre = button.closest('pre');
+    const code = pre.querySelector('code').innerText;
+
+    navigator.clipboard.writeText(code).then(() => {
+      const icon = button.querySelector('i');
+      const original = icon.className;
+      icon.className = 'icon-check'; // 你可以定义 icon-check 显示为 ✔ 图标
+      setTimeout(() => {
+        icon.className = original;
+      }, 1500);
+    }).catch(err => {
+      alert('复制失败: ' + err.message);
+    });
+  }
+</script>
+</body>
+</html>

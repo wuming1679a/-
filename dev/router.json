@@ -1,0 +1,42 @@
+{
+    "routes": [
+        {
+            "id": "home",
+            "title": "主页",
+            "file": "home.html"
+        },
+        {
+          "group": "志人篇",
+          "open": false,
+          "items": [
+            {
+              "id": "guorunduo",
+              "title": "郭润铎",
+              "file": "guorunduo.html"
+            }
+          ]
+        },
+        {
+          "group": "志事篇",
+          "open": true,
+          "items": [
+            {
+              "id": "match",
+              "title": "体育文化艺术节",
+              "file": "match.html"
+            }
+          ]
+        },
+        {
+          "group": "中考篇",
+          "open": true,
+          "items": [
+            {
+              "id": "exam",
+              "title": "空",
+              "file": "exam.html"
+            }
+          ]
+        }
+    ]
+}

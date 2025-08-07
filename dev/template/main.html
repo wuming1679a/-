@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{siteTitle}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="logo">{{siteTitle}}</div>
+    <div class="search-container" id="mobileSearchContainer">
+      <input type="text" id="searchInput" placeholder="输入关键词进行搜索..." />
+      <button onclick="openSearchModal()">搜索</button>
+    </div>
+  </div>
+
+  <!-- 手机端汉堡菜单 -->
+  <button class="hamburger" aria-label="Toggle Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <!-- 手机端遮罩层 -->
+  <div class="overlay" id="mobileOverlay"></div>
+
+  <div class="header-right">
+    <div class="nav-links" id="mobileNavLinks">
+      <ul>
+        <!-- HEAD_LINKS_PLACEHOLDER -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="pfds-container">
+  <div class="pfds-nav" data-no-search>
+    <!-- NAV_PLACEHOLDER -->
+  </div>
+
+  <div class="pfds-content-area">
+    <div class="pfds-content-main">
+      <!-- CONTENT_PLACEHOLDER -->
+    </div>
+    <div class="pfds-content-nav">
+      <ul id="contentNavList"></ul>
+      <div class="pfds-compile-time">编译时间：{{buildTime}}</div>
+    </div>
+  </div>
+</div>
+
+<div class="pfds-modal-overlay" id="searchModal">
+  <div class="pfds-modal">
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<!-- 引入 Highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
+<script type="module" src="assets/js/modules.js"></script>
+
+<script src="assets/js/public-script.js"></script>
+<!-- DEV_ONLY_START -->
+<!-- 热重载客户端 -->
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  const socket = io();
+  socket.on('reload', function () {
+    console.log('🔁 检测到文件更新，页面即将刷新...');
+    location.reload();
+  });
+</script>
+<!-- DEV_ONLY_END -->
+<script>
+  function copyCode(button) {
+    const pre = button.closest('pre');
+    const code = pre.querySelector('code').innerText;
+
+    navigator.clipboard.writeText(code).then(() => {
+      const icon = button.querySelector('i');
+      const original = icon.className;
+      icon.className = 'icon-check'; // 你可以定义 icon-check 显示为 ✔ 图标
+      setTimeout(() => {
+        icon.className = original;
+      }, 1500);
+    }).catch(err => {
+      alert('复制失败: ' + err.message);
+    });
+  }
+</script>
+</body>
+</html>

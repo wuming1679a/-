@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbdbd3ad-e2ab-4b03-9ee7-7b344f6d77d7" name="更改" comment="1.0.29">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\BtSoft\php\80\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2xxRqLirTMrcK0GMQa04S2BlSoj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/pfds/dev/views&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\PhpStorm 2024.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\pfds\dev\views" />
+      <recent name="F:\pfds\core\themes" />
+      <recent name="F:\pfds\core\command\build\markdown" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\pfds\core\modules" />
+      <recent name="F:\pfds\.idea" />
+      <recent name="F:\pfds" />
+      <recent name="F:\pfds\new" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="dbdbd3ad-e2ab-4b03-9ee7-7b344f6d77d7" name="更改" comment="" />
+      <created>1748877927309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748877927309</updated>
+      <workItem from="1748877928370" duration="10314000" />
+      <workItem from="1748938468342" duration="436000" />
+      <workItem from="1748938917581" duration="612000" />
+      <workItem from="1748939771069" duration="729000" />
+      <workItem from="1748940511777" duration="136000" />
+      <workItem from="1748940655166" duration="5987000" />
+      <workItem from="1748973956923" duration="2633000" />
+      <workItem from="1748977442029" duration="521000" />
+      <workItem from="1749026263986" duration="10000" />
+      <workItem from="1749397009299" duration="1857000" />
+      <workItem from="1749434903962" duration="23528000" />
+      <workItem from="1750170804772" duration="877000" />
+      <workItem from="1750181123810" duration="14866000" />
+      <workItem from="1750217838199" duration="2325000" />
+      <workItem from="1750399621259" duration="21686000" />
+      <workItem from="1750423661336" duration="3609000" />
+      <workItem from="1750503406607" duration="15000" />
+      <workItem from="1750612054459" duration="2616000" />
+      <workItem from="1750663811298" duration="8000" />
+      <workItem from="1750681865252" duration="46000" />
+      <workItem from="1750695121854" duration="49000" />
+      <workItem from="1750780532366" duration="23537000" />
+      <workItem from="1750827307029" duration="1734000" />
+      <workItem from="1750841139134" duration="163000" />
+      <workItem from="1750874013292" duration="1488000" />
+      <workItem from="1750924050217" duration="61000" />
+      <workItem from="1752858368777" duration="9103000" />
+      <workItem from="1752909042671" duration="192000" />
+      <workItem from="1753097748350" duration="1923000" />
+      <workItem from="1753099717390" duration="35000" />
+      <workItem from="1753099968055" duration="128000" />
+      <workItem from="1753106747563" duration="836000" />
+      <workItem from="1753110342632" duration="1000" />
+      <workItem from="1753110348424" duration="26171000" />
+      <workItem from="1753137965847" duration="383000" />
+      <workItem from="1753304683507" duration="4298000" />
+      <workItem from="1753346196373" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="Merge branch 'main' of https://github.com/nanxiangxi/pfds">
+      <option name="closed" value="true" />
+      <created>1748940709290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748940709290</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'main' of https://github.com/nanxiangxi/pfds">
+      <option name="closed" value="true" />
+      <created>1748942603302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748942603302</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'main' of https://github.com/nanxiangxi/pfds">
+      <option name="closed" value="true" />
+      <created>1748942723085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748942723085</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge branch 'main' of https://github.com/nanxiangxi/pfds">
+      <option name="closed" value="true" />
+      <created>1748974924341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748974924341</updated>
+    </task>
+    <task id="LOCAL-00005" summary="本次更新的内容">
+      <option name="closed" value="true" />
+      <created>1748975726520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748975726520</updated>
+    </task>
+    <task id="LOCAL-00006" summary="本次更新的内容">
+      <option name="closed" value="true" />
+      <created>1748975746831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748975746831</updated>
+    </task>
+    <task id="LOCAL-00007" summary="本次更新的内容">
+      <option name="closed" value="true" />
+      <created>1748975789249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748975789249</updated>
+    </task>
+    <task id="LOCAL-00008" summary="本次更新的内容">
+      <option name="closed" value="true" />
+      <created>1748975845222</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748975845222</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.0.29">
+      <option name="closed" value="true" />
+      <created>1753308343539</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753308343539</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.0.29">
+      <option name="closed" value="true" />
+      <created>1753308379504</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753308379504</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="本次更新的内容" />
+    <MESSAGE value="Merge branch 'main' of https://github.com/nanxiangxi/pfds" />
+    <MESSAGE value="1.0.29" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.29" />
+  </component>
+</project>
